@@ -1,0 +1,19 @@
+#id-style {
+  color: blueviolet;
+}
+
+.class-style {
+  color: green;
+}
+
+h1 {
+  color: red;
+}
+
+* {
+  /* color: skyblue !important */
+}
+/* 같은 h1태그라도 가장 마지막에 작성된 태그로 적용 */
+h1 {
+  color: black;
+}
