@@ -1,0 +1,40 @@
+.every {
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px;
+}
+
+.apple-box {
+  background-color: black;
+  width: 500px;
+  margin: 0 auto;
+}
+.apple-title {
+  background-color: black;
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  height: 50px;
+  color: white;
+}
+
+.taste {
+  color: rgb(245, 159, 0);
+}
+
+.check {
+  width: 500px;
+  height: 40px;
+  color: white;
+  background-color: black;
+}
+
+h2 {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
