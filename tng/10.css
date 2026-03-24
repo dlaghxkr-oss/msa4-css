@@ -1,0 +1,32 @@
+/* div {
+  border: 1px, solid, black;
+} */
+
+.container {
+  width: 500px;
+  height: 300px;
+}
+
+.container div {
+  width: 300px;
+  height: 350px;
+}
+.pos {
+  border: 5px solid gray;
+}
+.div-potition1 {
+  position: relative;
+  left: 10px;
+}
+
+.div-potition2 {
+  position: relative;
+  bottom: 250px;
+  left: 500px;
+}
+
+.div-potition3 {
+  position: relative;
+  bottom: 200px;
+  left: 100px;
+}
