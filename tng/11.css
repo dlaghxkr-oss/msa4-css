@@ -1,0 +1,49 @@
+.container {
+  background-color: black;
+  width: 900px;
+  height: 1000px;
+  position: fixed;
+  padding: 50px;
+}
+
+.title {
+  padding: 20px;
+  /* padding-top: 1px; */
+  background-color: white;
+  box-sizing: content-box;
+  position: relative;
+  margin: auto;
+  width: 700px;
+  height: 950px;
+}
+
+.h1-pizza {
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: rgb(49, 61, 57);
+  color: white;
+  position: auto;
+}
+
+h2 {
+  color: red;
+}
+
+ul {
+  list-style: none;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.new-1 {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
