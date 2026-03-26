@@ -1,0 +1,48 @@
+fieldset {
+  width: 500px;
+  height: 400px;
+  background-image: url(./KakaoTalk_20260326_113521967.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.h1-title {
+  color: #800080;
+}
+
+.div-name::before {
+  content: "*";
+}
+.div-age::before {
+  content: "*";
+}
+.div-sex::before {
+  content: "*";
+}
+
+.div-name,
+.div-age,
+.div-sex,
+.div-order {
+  margin-bottom: 10px;
+}
+
+.div-order textarea {
+  vertical-align: top;
+  width: 200px;
+  height: 120px;
+}
+
+button {
+  margin-top: 50px;
+}
+
+#name:focus {
+  outline: none;
+  border: 3px solid red;
+}
+#age:focus {
+  outline: none;
+  border: 3px solid red;
+}

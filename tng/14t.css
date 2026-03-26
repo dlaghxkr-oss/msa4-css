@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+fieldset {
+  padding: 0 10px 10px;
+}
+
+legend {
+  font-size: 25px;
+  color: #d4179c;
+}
+
+input,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border: 3px solid #ff0000;
+}
+
+textarea {
+  width: 200px;
+  height: 150px;
+}
+
+.container {
+  background-image: url(./mokhwa_cute.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.required-category::before {
+  content: "*";
+  color: #ff0000;
+}
+
+.vertical-align-top {
+  vertical-align: top;
+}
+
+input[type="radio"]:checked + label {
+  color: #ff0000;
+}
+
+.btn-send {
+  position: relative;
+}
+
+.btn-send:hover:after {
+  content: "내용을 다시 한 번 확인해 주세요.";
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: -5px;
+  right: -280px;
+}
