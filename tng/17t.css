@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+  width: 500px;
+  height: 800px;
+  background-color: #5d5d5d;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row-box {
+  /* background-color: bisque; */
+  flex: 1;
+  display: flex;
+  gap: 10px;
+}
+
+.nested-box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item {
+  flex: 1;
+  background-color: crimson;
+  border: 1px solid #000;
+}
+
+.nested-box > .item:last-child {
+  flex: 2;
+}
